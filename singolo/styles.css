@@ -1,0 +1,31 @@
+body {
+    background-color: #FFB300;
+    margin-top: 0; margin-left: 0; margin-right: 0; margin-bottom: 0;
+    margin: 0 0 0 0; /* TOP, RIGHT, BOTTOM, LEFT */
+    margin: 0;
+}
+
+* {
+    outline: 1px dotted lime;
+}
+
+.header {
+    background-color: #2d303a;
+    color: white;
+    height: 90px;
+}
+.nav {
+    display: grid;
+    grid-template-columns: 200px auto;
+    margin: 0 auto;
+    max-width: 950px;
+}
+.logo {
+    margin-top: 35px;
+    font-size: 1.4rem;
+}
+.links {
+    margin-top: 40px;
+    font-size: 0.75rem;
+    text-align: right;
+}
