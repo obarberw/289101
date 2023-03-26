@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>CSS Grid Layout 2</title>
+        <style>
+            div { outline: 1px solid black; }
+            #container {
+                display: grid; /* Defines the div as a grid */
+                grid-template-columns: 1fr 1fr 1fr; /* Lays out the columns for the grid */
+                margin: auto; /*        ^^ fractional units, four quarters made up of 1fr */
+                max-width: 800px;
+            }
+            #blue {
+                background-color: blue;
+                grid-column: 1 / 4;
+                height: 200px;
+            }
+            .red {
+                background-color: red;
+                height: 400px;
+            }
+            #green {
+                background-color: lime;
+                grid-column: 1 / 4;
+                height: 200px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <div id="blue"></div>
+            <div class="red"></div>
+            <div class="red"></div>
+            <div class="red"></div>
+            <div id="green"></div>
+        </div>
+    </body>
+</html>
