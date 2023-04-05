@@ -2,12 +2,29 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Singolo</title>
+        <title>Fancybox Example</title>
         <meta name="description" content="Fancybox Example" />
         <link rel="stylesheet" href="styles.css" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
     </head>
     <body>
-        
+        <script>Fancybox.bind("[data-fancybox]", {});</script>
+        <a href="img/big_1.jpg" data-fancybox="gallery" data-caption="The Saint James Theatre">
+            <img src="img/small_1.jpg" alt="The saint james theatre" />
+        </a>
+        <a href="img/big_2.jpg" data-fancybox="gallery" data-caption="The Saint James Theatre">
+            <img src="img/small_2.jpg" alt="The saint james theatre" />
+        </a>
+        <a href="img/big_3.jpg" data-fancybox="gallery" data-caption="The Saint James Theatre">
+            <img src="img/small_3.jpg" alt="The saint james theatre" />
+        </a>
+        <a href="img/big_4.jpg" data-fancybox="gallery" data-caption="The Saint James Theatre">
+            <img src="img/small_4.jpg" alt="The saint james theatre" />
+        </a>
+        <a href="img/big_5.jpg" data-fancybox="gallery" data-caption="The Saint James Theatre">
+            <img src="img/small_5.jpg" alt="The saint james theatre" />
+        </a>
     </body>
 </html>
