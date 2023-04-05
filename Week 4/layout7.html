@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Layout 7</title>
+        <style>
+            div {
+                outline: 1px solid black;
+            }
+            
+            #container {
+                background-color: blue;
+                margin: auto;
+                max-width: 800px;
+            }
+            
+            #header {
+                background-color: blue;
+                box-sizing: border-box;
+                display: grid;
+                grid-template-columns: 30% auto;
+                height: 90px;
+                padding: 15px;
+            }
+            #header .yellow {
+                background-color: yellow;
+                margin: 15px;
+            }
+            
+            #banner {
+                background-color: lime;
+                height: 450px;
+            }
+            
+            #intro {
+                background-color: red;
+                box-sizing: border-box;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                padding: 15px;
+            }
+            #intro .yellow-span {
+                background-color: yellow;
+                grid-column: 1/4;
+                height: 100px;
+                margin: 15px;
+            }
+            #intro .yellow {
+                background-color: yellow;
+                height: 200px;
+                margin: 15px;
+            }
+            
+            #gallery {
+                background-color: blue;
+                box-sizing: border-box;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                padding: 15px; 
+            }
+            #gallery .yellow-span {
+                background-color: yellow;
+                grid-column: 1/5;
+                height: 80px;
+                margin: 15px;
+            }
+            #gallery .yellow {
+                background-color: yellow;
+                height: 115px;
+                margin: 15px;
+            }
+            
+            #staff {
+                background-color: lime;
+                box-sizing: border-box;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                padding: 15px; 
+            }
+            #staff .yellow-span {
+                background-color: yellow;
+                grid-column: 1/4;
+                height: 100px;
+                margin: 15px;
+            }
+            #staff .yellow {
+                background-color: yellow;
+                height: 360px;
+                margin: 15px;
+            }
+            
+            #contact {
+                background-color: red;
+                box-sizing: border-box;
+                display: grid;
+                grid-template-columns: 65% auto;
+                padding: 15px; 
+            }
+            #contact .yellow-span {
+                background-color: yellow;
+                grid-column: 1/3;
+                height: 80px;
+                margin: 15px;
+            }
+            #contact .yellow-left {
+                background-color: yellow;
+                height: 340px;
+                margin: 15px;
+            }
+            #contact .yellow-right {
+                background-color: yellow;
+                height: 210px;
+                margin: 15px;
+            }
+            
+            #footer {
+                background-color: blue;
+                height: 100px;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <div id="container">
+        
+            <div id="header">
+                <div class="yellow"></div>
+                <div class="yellow"></div>
+            </div>
+            
+            <div id="banner"></div>
+            
+            <div id="intro">
+                <div class="yellow-span"></div>
+                <div class="yellow"></div>
+                <div class="yellow"></div>
+                <div class="yellow"></div>
+            </div>
+            
+            <div id="gallery">
+                <div class="yellow-span"></div>
+                <div class="yellow"></div><div class="yellow"></div>
+                <div class="yellow"></div><div class="yellow"></div>
+                <div class="yellow"></div><div class="yellow"></div>
+                <div class="yellow"></div><div class="yellow"></div>
+                <div class="yellow"></div><div class="yellow"></div>
+                <div class="yellow"></div><div class="yellow"></div>
+                <div class="yellow"></div><div class="yellow"></div>
+                <div class="yellow"></div><div class="yellow"></div>
+            </div>
+            
+            <div id="staff">
+                <div class="yellow-span"></div>
+                <div class="yellow"></div>
+                <div class="yellow"></div>
+                <div class="yellow"></div>
+            </div>
+            
+            <div id="contact">
+                <div class="yellow-span"></div>
+                <div class="yellow-left"></div>
+                <div class="yellow-right"></div>
+            </div>
+            
+            <div id="footer"></div>
+            
+        </div>
+        
+    </body>
+</html>

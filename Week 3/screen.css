@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+
+d* { outline: red 1px solid; } 
+
+body {
+    background-color: #82DDB5;
+    background-image: url('img/illustration.gif'), url('img/texture.jpg');
+    background-position: center 280px, left top;
+    background-repeat: no-repeat, repeat-x;
+    background-size: 800px, auto;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+}
+
+#nav {
+    background-color: #6B9;
+    border-bottom: 2px dashed #487;
+    color: white;
+    font-weight: bold;
+    padding: 20px 0;
+    text-align: center;
+    word-spacing: 2em;
+}
+
+#header {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#logo {
+    width: 360px;
+}
+
+#description, #date {
+    width: 220px;
+}
+
+.register_btn {
+    background-color: #E43;
+    border: 2px dashed #A43;
+    border-radius: 2em;
+    color: #FFF;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+    margin-top: 25px;
+    padding: 15px 30px;
+}
+
+#what {
+    background-color: rgba(205,240,225,0.9);
+    color: #378;
+    margin-top: 360px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+
+h1 {
+    font-size: 2.2em;
+    text-align: center;
+}
+
+#what h1 + p {
+    font-size: 1.2em;
+}
+
+p {
+    line-height: 1.6em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+
+h2 {
+    font-size: 1.4em;
+    margin-top: 1.8em;
+    text-align: center;
+}
+
+#sponsor_logos {
+    text-align: center;
+    word-spacing: 2em
+}
+
+#sponsor_logos img {
+    height: 40px;
+}
+
+#why {
+    background-color: #B7EAD4;
+    color: #378;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+
+#where {
+    background-color: #FEF;
+    background-image: url(img/map.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #B48;
+    height: 500px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    font-weight: bold;
+    text-align: right;
+}
+
+#where span {
+    color: white;
+    background-color: #B48;
+}
+
+#map {
+    margin-top: 20px;
+    width: 600px;
+}
+
+#when {
+    background-color: #499;
+    background-image: url(img/wires.png);
+    background-position: center 100px;
+    background-size: 700px;
+    color: #FFF;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+#when h3 {
+    border-top: 2px dashed #FFF;
+    margin-top: 2em;
+    padding-top: 1em;
+}
+
+#when ul {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    width: 600px;
+}
+
+#who {
+    background-color: #F5F5F5;
+    color: #378;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+
+#who h1 + p {
+    font-size: 1.2em;
+}
+
+#who p {
+    line-height: 1.6em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+
+#footer {
+    background-color: #82DDB5;
+    background-image: url('img/texture.jpg');
+    padding-bottom: 40px;
+    padding-top: 20px;
+    text-align: center;
+    word-spacing: 1.2em;
+}
+
+#footer img {
+    width: 50px;
+}
